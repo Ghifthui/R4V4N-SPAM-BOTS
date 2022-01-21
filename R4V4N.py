@@ -901,7 +901,7 @@ async def _(e):
         R4V4N = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)     
         if len(e.text) > 5:
             bio = str(R4V4N[0])
-            text = "Changing Bio"
+            text = "Changing Bio BY NGAMER SPAMMER"
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await e.client(functions.account.UpdateProfileRequest(about=bio))
@@ -1526,7 +1526,7 @@ async def ping(e):
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await event.edit(f"𝐁𝐎𝐓 𝐈𝐒 𝐀𝐋𝐈𝐕𝐄🔥\n𝐑𝟒𝐕𝟒𝐍 𝐒𝐏𝐀𝐌 𝐁𝐎𝐓\nᑭᎥᑎǤ !!`{ms}` ᴍs")
+        await event.edit(f"𝘒𝘐𝘕𝘎 𝘟 𝘊𝘙𝘈𝘊𝘒𝘌𝘙\nᑭᎥᑎǤ !!`{ms}` ᴍs")
 
 
 @idk.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
